@@ -21,7 +21,7 @@
     flex-direction: column;
     padding: 10px;
     box-sizing: border-box;
-    overflow: hidden
+
 }
 
 header {
@@ -118,7 +118,7 @@ aside form .showYear {
 @media (max-width:750px) {
     .container {
         width: 100vw;
-        height: 100vh;
+
         margin: 0
     }
 
