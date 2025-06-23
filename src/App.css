@@ -20,7 +20,7 @@
   /* מבנה אנכי */
   padding: 10px;
   box-sizing: border-box;
-  overflow: hidden;
+
   /* מונע חריגה */
 }
 
@@ -39,6 +39,7 @@ main {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 20px;
+  height: 100%;
 
 }
 
@@ -129,7 +130,6 @@ aside form .showYear {
 @media (max-width:750px) {
   .container {
     width: 100vw;
-    height: 100%;
     margin: 0;
   }
 
