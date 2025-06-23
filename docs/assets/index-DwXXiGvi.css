@@ -118,7 +118,7 @@ aside form .showYear {
 @media (max-width:750px) {
     .container {
         width: 100vw;
-
+        min-height: 100vh;
         margin: 0
     }
 
